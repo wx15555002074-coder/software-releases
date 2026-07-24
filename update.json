@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "versionCode": 5,
+  "versionName": "1.1.3",
+  "notes": "Sleep timer, media notification controls, GitHub updates, and mobile download settings",
+  "apkUrl": "https://raw.githubusercontent.com/wx15555002074-coder/software-releases/main/latest.apk.enc",
+  "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
+  "aad": "content-collector-update-v1",
+  "nonce": "BmTIkb+gMfZli7dT",
+  "wrappedKey": "v9fE5Ztzipt+i22/C4GNcq5FRgR/iv6OgAdmDz4+BBGzfIrb4PLTUbrddgaD3P6b4/touN6xB+GUVS8HSJFMpl+VIUCQU5WsE0ekBPu2uhUWmErLMRPj+C/ZsFhsB8NUMmTAs+t+UlnoHFf7A5z4dhplweN1oWRkgAQ5RlOVAJSQDXLDXmJKsduDHljoy9OY69Lp70/shJBBoEfZcGMBfoo1mjFOV/0a7j51I3v2m5H8fKe4npjsc9zUFfQBww2sW8JTGAW82z9R5Fe7jpbxvFMCKJHbyw0jhCisypU/Zf0BbiRPwfKTYSKo5T2XwP8N7d0nPLdz4nXp+shVF2tW8q4SQOOy5BPZNtYjQ1AkLTwo8TaB7y2ffZ28T37nmBzCtre9u9clDW6kKBT/3gNgQFUVGbcVeNiJlahbvh7h3p5ye1ZTTShyuJqMNTUbn+YNp7qTlKWTR/9F1MH0enRtoGfMJIOhcyoMj66J+sC6myuhTouv1mj4UVUz0Lcjidle",
+  "encryptedSha256": "a0e0fffc29f23bd924a4245aa1967edc4f7f8e6ca1609eb244cdede2b6b7019d",
+  "apkSha256": "4670306c766632b7976154a5edf1a8e0a6b0967b0d7a292c28a3c2a6b6b3b04d",
+  "encryptedBytes": 22636514,
+  "createdAt": "2026-07-24T14:36:57.438550Z"
+}
