@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "versionCode": 5,
+  "versionName": "1.1.3",
+  "notes": "Sleep timer, media notification controls, GitHub release updates, and mobile download settings",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.3-5/latest.apk.enc",
+  "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
+  "aad": "content-collector-update-v1",
+  "nonce": "HAPtLs2q+qotU9CF",
+  "wrappedKey": "RNGdkGsKiBw0/vfDp5u6BEYjsAJzTx7FXJfjIMWowXTS0kx4mLGZ7LMfac8DWpfx/D8E1IAifnDiE7i+T0PoqmgAKJYgSki0L9YbtVwAoMJDP7bq37HFxZZgxZvVROL/PnwO1EKDe1nzVeWnVSh2kirk4CBZQyjhosRLQ39erRzAfaRzIMHUKeVB32dpOJl6bmVh+nyYGvZKl/8TuY/FUVtcbiZ3DD4meCMZwV2HIEMsHSwodwsirMEcqMrLFSIt08nw3XlRf53TQxgCdLrZFl7jE+tc8ChJ/+tgT1A8VCALSreG2IGW8oIn4g20v4AR7dcMPmvuPhdj3aoavh0NfMlxRfZ9nFn8EgE0ipSjmPEKFhExk0n7y2vi2DYIeAKJPfCsyRdWFS+NN7C6IZ9HQ9cBdtLrj/t1McvQp+7WUgk06TtrrpbtfQ3UIm+8txKRnvyehe5183b7S38vpOkANyZQJgrUNRiR9mEVcq4LBJMpvEJqqdbb1VZyF7QyuqSk",
+  "encryptedSha256": "5d319c7150d29645ed5623b788551189b5583085ed9419e2c8b7f5e0223fca60",
+  "apkSha256": "e4f9cd58b7602e004011484421e2024e8afa84896f1ef473cab45492ffd35a97",
+  "encryptedBytes": 22636514,
+  "createdAt": "2026-07-24T14:45:19.492532Z"
+}
