@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 6,
-  "versionName": "1.1.4",
-  "notes": "Improved sleep timer controls and Android update-key compatibility.",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.4-6/latest.apk.enc",
+  "versionCode": 7,
+  "versionName": "1.1.5",
+  "notes": "Fixed zero-byte downloads and improved large queue scheduling.",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.5-7/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "zy933De6iLwvW9gR",
-  "wrappedKey": "TafDzHItg9nFnQV/M6kaY1PGlO9jMbEEAsxkSWQAbLexGRM9+d7nVu3RdVbdwCzPenQ1n0MdUmx23YNC1e9snMXu4y3HKDZXfz+Ly7PHOTO+27LBVLc4v9Xc5uKOJifPIE8xkWn+IMIB4YnIuHtExAuXl0CcOU8MuETo2pJ1EDVRQN+xYLgeewOCPaQt6tn/ymMWMZR1NgRKPCU6GrxikW9f4c7Sp6yI7toqmR+AX2bN/laAuIgC62X+QGgIapgxtShk2nLHmhH1vQLXOL2rmCQESYDei+DcR7icBRSCCf3aViE2jTkoRQrX4cb19xEW69Hnih1hv2wZU6WjKgm0WuAJPjyM2Ab9v4Ubc4mTFh0ZH1LTctc6QJ11x1LkKhMw1072ZjY98jGW6lrwIWcLbhwARGCYc3+TmQpJ9lhmIi7rNpQ+JA+qpCS1arp1nEZKRjgtnDciu5YxmMF26/PcK8t3GXnI19sSL41TOev7JbcNiK9vcq3t5t4tzKmaPi/0",
-  "encryptedSha256": "b70f20fd5834ea124f6e5ee4146334fadf9274b13c7ca9b9c633704f49a562bf",
-  "apkSha256": "0aca6b7ad9a61f69d73cf76d46e04207fa723ea8c4f585e68b578b9afd392056",
-  "encryptedBytes": 22636646,
-  "createdAt": "2026-07-25T17:25:24.800023Z"
+  "nonce": "Am069RcRwCJVZFv+",
+  "wrappedKey": "m5vYfdGsymD+Q8JuMXC9pxwxJTyp+NmYCfrZZaJ2lE7umj4fipAOmUJ/fxSKREgNk8WyL4irJYEJrIHoZOm9acG8cPd/vu8BLm6KSTat9eHRPx3zLrDpRC3jbq1nCkkDdbrGXb9jAYDRKZWrgbT3J/xlyw17f6oT44UQyJGKROfpbG2OJREVNFjluNd5MDwKf80Rp5wz7bGLx+kqqvkzbqkJE7mPAd1Q+uao9hN9FTTYPhG6asSJlUtdbHaHKqQfEOVIaylmp8VoJsUfB9IDLF2lJlK39aKFLSw8vURuL/uaC85d39RGOqJQUr1tJqIa/ljWb19bpu0TD+nd8f7FL3LzbKy7eBYUYh+v+NoxIX7el1UoAphzwFF1zuwMBp/CZ5Ls3i89aRhjJdhYHJckUgRCL9xHpYHFAqLf0s+lQtDFprvkv3JXud9J7UYAzY1/Q4GU0taA4Q+UD272YNxHHjCXrd0BGYZoqHaW8rtWwHKSfzIvJapp8fyzSAvxZ10r",
+  "encryptedSha256": "61cd9e888e3cdf5142e0bdb647929302879b267e1c6abfe0c3631ab15bbda752",
+  "apkSha256": "3bc4e6615c480271d95391e3893451b849aa4324f2a954773ab943f1e0bd40c7",
+  "encryptedBytes": 22702182,
+  "createdAt": "2026-07-25T18:49:48.608688Z"
 }
