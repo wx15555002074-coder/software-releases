@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 10,
-  "versionName": "1.1.8",
-  "notes": "重构大厂听书播放页沉浸视觉、胶囊时间滑块、双环播放键、0.1步长震动调节倍速与跳头尾更多面板",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.8-10/latest.apk.enc",
+  "versionCode": 11,
+  "versionName": "1.1.9",
+  "notes": "修复 Android 13+ 媒体控制按钮缺失与通知折叠问题",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.9-11/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "XFQqXem+Uh0NCIB4",
-  "wrappedKey": "gFISSdLn8QDKnh9PMqbc/KgymET+wTcb03/EHFX2pU3twugHLO5o3Fx0AEr3RUt0MNJ7wa8TatFOMBEOVJmxa2jOupji1tm+W+JfE3tCuG+Z/6qPi3GyINVSA+f3sikBzAK08b+xu59VTYginjaRkra/p4BfS3bpjhdbefM3pbZ9JNVwolAyVsvlk5yaornU048JY9gx8a3M50vWTa1C2JwSdtAJIwQ7uLmffdNH9MvV1EHjejc62IuMBdEkQk0AAXgq8kT03V0EDnFJIKNP3xji9i0NKvA3mbssNifxrzkxyrAOZNkgkK+b6iR7cdx6M5Au2twNYvuZdYC+54ab1fQqqSon2oyqpTqRvf4GUpv3In5s5IgOA4v8kidtL5FVMotSsBwBtkXnIwpdfi5lyV6S4UQceztTz3CBrE/O2D/x9mxT5lg7aksmgR5Y/mLVrdkvfmcA3RC9w/0yd76/NcxXmTwLJ0jbB3DCr7U2pQBVi6mV6gdiZ8aMsaq3VsIC",
-  "encryptedSha256": "81a9a269f71d823e6fda45ae279e33b3c87d9693e54b2c5152a944fe85d75524",
-  "apkSha256": "d4d19c5e980d3cb5753e3283fb5300313680683c895aceee7ffb406a89257abd",
-  "encryptedBytes": 22769766,
-  "createdAt": "2026-09-12T15:22:27.893085Z"
+  "nonce": "JDNAi9rHNR4JlRwI",
+  "wrappedKey": "kPEvn4uCVjIwoMXFR5SFjYpy5UOpKVgS/eHumjWWJ5HLpPNBHP8vuW+hVzBpQmweJRAhhomb5oVdJpluwrq6B8LghBnDVjH9ynxGZGW9oaZV1z2nb4AjCeZYiSM3IuARWeE4M8mMTr2EwlypbJzVmyeCIJea0q3dFiF3Rr1iSltxjpgIEwJLzTfDMJgE2VdIjq/IHp30u+pRT4kYf5W+pMiWh8ImBR+NJoIjr2Ju84IbxBggn4hyvF77KWQc+Dz9Y19c00fsSWCmHYJWmsbdT/M30K0tgtMqny2Bumw2bk/vuXN0fTlo7Lsaq43jrzmDUwtcqMgNmOm0dsGNJEQvTW7tag8JIBIFqrYzSEldNFpBrttPOkxgTSQCvENDznHPys9HwUFoZVXbMnQq97hztuj5T7AHkxif9SVtNoESkrJLyWwf15NUymhy6iZZ7FeapY/Il5BfR5qb/QXo9PmOxjCS2LbytTBPYf8P5i0Ok0CnFoHbJm+GlpGHm9WlDyUE",
+  "encryptedSha256": "d1782e08e9ea12e546fa0523e9a723c448ca68792c734548bec39e5e74d4d6ae",
+  "apkSha256": "9964759f5fa33fae813e6aebad24187828de4d7f62dbcfbcb99a43e5b560306c",
+  "encryptedBytes": 22900462,
+  "createdAt": "2026-09-12T18:23:49.023914Z"
 }
