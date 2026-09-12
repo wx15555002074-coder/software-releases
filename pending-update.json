@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 8,
-  "versionName": "1.1.6",
-  "notes": "播放核心多源解耦，优化收听统计多源隔离与启动容错",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.6-8/latest.apk.enc",
+  "versionCode": 9,
+  "versionName": "1.1.7",
+  "notes": "锁定竖屏、紧凑导航栏、大厂风格聚合首页与极简代码规范治理",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.7-9/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "F5mb6pJnDXLmGXp6",
-  "wrappedKey": "VNPU5t2plfudts4BzANt4GKAe4RHge20DCNuaOJJtifoaK2CGmScNP606Zqrcfw7fgJaI+AkvbRLtL4tS7jyDBUdGxw6Uio5jCTT523tjDErA5bwIzgO3z8DLPKkNlH3un3Hw9MT8q4Ke3YwHgvnJAJPPuUqG7jflDiejEudVVbkzIfjOE3X5LOy38QWRBOsEvSEZEQ0YlJGfodXnzAiOanlTzIshatxOpzBuAgWwjSE8V29AVc0w/8v5yn6kBgzlm66blkRAl7EV3jfD1mj11OlkKjr9yGz0ek88BMJ5tj3rvtdNaJfigu2+rXOUiSUXgccF+BJvB1NGRAwyfLiKoQj+keT/XnHrn6EcAmbq2uswFDUsvw2JoFscfHvbPLYMzW35U7GDSY5jKzckOM62oGvNSPK9Q6UVqUNM0TUpZSmMxUAqykosk8E+InKWnaGLDONzhY5QIDh/5ztE3y9+y9VPct3kaltQzRC26k9A58UK8V7wNCMuW6A1Y0+wvxf",
-  "encryptedSha256": "b89e57bb6d0314b382a994ceb1b9b2a5738918d2a2ed45bb4c0b26f4e32f71f5",
-  "apkSha256": "647c5430daaf6c2bc83b654dba8663304bb8d773612d3e47b450db92be5c9ce2",
-  "encryptedBytes": 22767978,
-  "createdAt": "2026-09-12T05:35:15.152584Z"
+  "nonce": "lKjvHIvzeQltzdF7",
+  "wrappedKey": "pTgkx2ik61np3Dy21iayaLFGP53iP5wfHsGeA8DsmqLGlHYpN7nqEisEZdcV24aQoWqEBKr3su+3IqH9DRNlJoe73ub7uND/NJs7SqZoB4NC32Ut+BQxP22PfyXEnwcdg+g/NSMkxJqRyBBg6jbPr6aEd6orYCBdxyrb3QwFzD3Lfu65ShwzDeyqtDcHjnWXxEex1xqSbkGIyIsMcOFKcccI114cEXwhx3V+t8TLtIOBAfG4xdkAM6o2IEspiLPphI8jzch3riqL4r6ZWEmMsvWnNKQmzIt/SwWMGlNIAksqkximHQxTaVu/S9wPUTcUI1LV0XT6t35Apygvg6lr8q1oBAgGdcIRUvCv90QuKgxXCSPNjarTRsOgcxrweY43y/18XEkZCL+n+dg27RDFraANPs9JHak8GqqD4WobJU9A+OnSFLBG62DV1qhrswShTAH634iHI9FdvwhYB9b9OKGss/D1NOmxjKrRWAgrAysL7cxWZOuMKkMtH9FU+8fM",
+  "encryptedSha256": "b64efa547a0c4c1bb579d38c5de194b298e6c5b40ae247f10ed88720697fed91",
+  "apkSha256": "fcedb20a95dee712c6ca14b1402158de2de13c0c4205df77cb6620be94a28035",
+  "encryptedBytes": 22770042,
+  "createdAt": "2026-09-12T09:02:02.770240Z"
 }
