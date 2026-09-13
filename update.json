@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 12,
-  "versionName": "1.1.10",
-  "notes": "播放页大厂样式重构、允许并发播放真生效与下载提示优化",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.10-12/latest.apk.enc",
+  "versionCode": 13,
+  "versionName": "1.1.11",
+  "notes": "修复通知中心媒体卡片暂停后无法重新播放的问题，补齐MediaButton直发通道与起播打断防误杀保护",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.11-13/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "guGVAX/x4aaaqs2/",
-  "wrappedKey": "44lmPrfN1UsQWnjQ+mjAhN9RoGi8UjXNNrYP7ftPap0ShIYcJTLO/smoM1yjGLIn7JQNPksqjjt05RS7/hF6p8/YwO9bS6glEjI96HrR4Q2kdXg5/EQYOHvNAWvqFGpY4tlFNc/I0Y4hiuidANUxRUYEYjuIpmgmMEMLs4gpTiZhSNtVnQho4aO8GNeiK2/CvKBvv4NnTeawXoNABJY59osJmUJlmZFf2YDulT7pXpICVe0Y87E6bAVxRu8oeX4n5/olulQtU+lu0Z0TkC6kY0qAG05AgLnI1OaOQweexZuDzmoPjSXHDC07ZLwHm98POEI+RJHuWuGq8aFxpzek6SwnevMPH0x8Jjjnmn30KCDwHc5PD/VnnkgLAkBS7t5CyR8btnXsVdA2/uBJcOYaqh4dS92cE6A1tT37XetmtodNyEUGJs5JHZaTvu8vPPSnicwIgYNnubmzD/4GRah93STqhfBSk1SPWuVg/29czNi3iAt+kC+5AHG5x9HLFILk",
-  "encryptedSha256": "40024c8ea0f33b8bd83a33c099d972be58abf3e3996d80002be08ce9044dfe04",
-  "apkSha256": "4cf2dc71d272d8cf8d0a01873a0dcaa98b1ff1f2f715747162b73230a2e483e0",
-  "encryptedBytes": 22790307,
-  "createdAt": "2026-09-12T19:08:00.296734Z"
+  "nonce": "x53TCMCzK8USN0i8",
+  "wrappedKey": "PPjWwfsZGCgrAvizE/nG3Xa7uyAhyb666tPxSP7ldOXXPUaYnywudIRhN4oYzvk28En0r5Go6k68xBQkojXmf7yzJI3Fz6yHHwz7sFZoHLIkI5SJx710N0KSR9WIaK26/yyOr1KYHJ/NGoT8/XibWEerHydFE++CrR8H5Qcz8bOBzmXNT224rZkqiqtIhbqMW/22MNwNc33/FlxIPBNRSQh1jvDCUqUYZZlkwpcM01aI0/I0Wdltc8GP/Wsg93dKAHiQRMZsgdiWdvnuru1FyYKC7K04NakvHggGAuwr3hSdXGLBxyH/EVYBUIz1/TTw9rrrC7TtYi2fQ976SXpkGJeRoo4M0r8mkIt9SHjZ9RP2kCIHwRNKmvkCIsIOu+laPLCuElkuOwSDiztyAp5edOUWkBgIY5K1hKlHPLC//d3n0TUpWwQg0mcPAP9twXHJo9z8mjebu0oP6cAcw/h2BQoWM8y3gEgRWBzC1TlkTggb+H2mp3qSdPUe8Yp/W64Z",
+  "encryptedSha256": "84cc97105c4fe73c31c1d2da3b0a739d36d6f00ffd47b3b97ec3f84d6cb608b6",
+  "apkSha256": "651cf06ab662ea3b733e1931d64d8fa281931f1e99fb1e38889b5f70fdf07ce8",
+  "encryptedBytes": 22855911,
+  "createdAt": "2026-09-13T18:00:51.661363Z"
 }
