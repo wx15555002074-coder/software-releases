@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 17,
-  "versionName": "1.1.15",
-  "notes": "修复首页频道栏与设置页对齐细节，优化坚果云WebDAV同步兼容",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.15-17/latest.apk.enc",
+  "versionCode": 18,
+  "versionName": "1.1.16",
+  "notes": "新增大厂风格收听成就页面、头像旁听书时长展示及多端云同步",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.16-18/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "vA467OvVazVCktrq",
-  "wrappedKey": "WiJRbEB4n3etY9FHLcruSdpKOPBu2wLHifpP+T7zGi4TVzUeAgiKBR7dm585E6FtG3VIzSkqqb+QH6xuxzLLQUpuIWcfjQ8F0QitU8Tj/mef1TLKrFm6AvXTBDe+CUFTQbHbDPzU0RGTB75nXGDTIn+YCmD8bC4RIvtO3JnlJr6BMj8eOZ0R6KoOGZrnsKdE15rQtS3PCg2rrPgzR9iwpYenGdYQ/r2CxtXQNBxTMjCz+ItSUj+w3gdkJ4SnmqQXiR/SkbiJ4Eg5pVuIPBlSuyqKzPIcamYXXTDI8vxJxfC9ctZABmDaXt3lWE9YiRUOGQ8e8U9vU1QC1C94SCLK0DvwtFcAYn+Y03ZcBxOKMedBJOPzdOnfwrlEZuDbzCs+tOIe+PhGkDVe/xe+xDH1oQTWy5/qgRRFXyhNIaCaJlz4FEDl0Pz/k8NGtOPqBjzIQZEZ//nTBcb+pyPw2mbff0QoritmKYj+5tUzrxsrQ2rM/Vx1EHpZghG9BdTLH2z0",
-  "encryptedSha256": "71b86f7f1475ce842a22d153f6e6882a7a221c490b9bc2a519bcc352264d524a",
-  "apkSha256": "5534003519c886ec5779bbbb98162a18b5099befe990a894659c4d40a20ced25",
-  "encryptedBytes": 22988387,
-  "createdAt": "2026-10-07T16:18:24.818056Z"
+  "nonce": "FV76G3qUHATZbban",
+  "wrappedKey": "w2ilhJJgbeIfisbrvp9wjcp6CUwooY74Tp4jVvtU5nnT5okEB6yITgZlCSnGQ3YgwY6TYIaC7yt2HrWBeGQDsB6mZWNyHJNxMCwEdpMMbUeCZCqA3JoDxAAcwcplGY6CCviyqAn+nmhnOofIVS7M/fHo+9aElBiM+1LWi3fIhgV2eOX1JVncRInw7K5AxzbvI28xlrAJV1NXfQUFC43cj0FuwBTTK89vvUzPkrQUozHk25nyoK/ZI8ucNuVcrC1aY0PIjDuLW5oz4tCl9Spj0gSAFfs8QqgKS6IMu7Kt31TKYDCYuyJ1SwEPcjgZqp+bSqHKIOvo+63PIwEbUn3E3W+fT6UyUNPzkq3k7HDMh3/fuzBNO4OKi8voo6//+IxfufCrNQwTaKYTuvKYtWF8coLfq8wf8rLt9Xt1hslUnYQswelVZpjn2SYZ3topABSqIBTQ75pZeW5PjNx9d1wXHHc45OiPlVQZsZMgxlANrJHWSheMHbDG7C/2/EvfCsr7",
+  "encryptedSha256": "c9d52b091db51e9225e725e35bf94f2d8134f10146a4497e740da4598048b3db",
+  "apkSha256": "9ad9feb91d7dd5013850e3dcb394f1f90bf5adf6ebdff13835bf35ef5ce87911",
+  "encryptedBytes": 22989539,
+  "createdAt": "2026-10-07T17:50:41.379021Z"
 }
