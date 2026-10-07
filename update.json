@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 14,
-  "versionName": "1.1.12",
-  "notes": "修复状态栏通知媒体控制直发通道与0ms乐观状态同步",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.12-14/latest.apk.enc",
+  "versionCode": 15,
+  "versionName": "1.1.13",
+  "notes": "支持极简云端多端播放历史增量同步，重构个人中心与设置中心",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.13-15/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "0K5Nu1lVYL2IfqOW",
-  "wrappedKey": "mkDfukGuUZyy+1B4h2YKBL8EScYgZe5St52q1N2PdFZdgqSpBUujfJnWNeaI/DhlSlXqlbtQKvze8LMi+LzlnGp1OrrirzM4wIGbF670GX4e8tJGqVGvzn6gnqVuud6e7UvK8h+KvVoU7+oMcOtK20XFhcpsvSqA2rrAyOqKuLWWLnJL9/aaULenT8LvV6Xo8i0SYcXiFyU0uZmLHonQ9Jj+ZnEuSFjhMOyHUi4fE9WSkGwBcyOLYYqUX9WjhBYkmNNH3+rQbOGjopShOno3aUNZfxpyhQ0UhKr3AoZ5evEjXFWBgmzrOrh9OJmIiYyi7GJy9+hA3wSNzOu2J3tJDGT9bojUCnXzks4EHXOljozi5TAz5yzk00AVhAPZdWfSiMeX2r2DfvMWKCgPjcavOWHi96j2dCMoRdLNO0UFJMIPt8f76vLyhu8FdH+ymB2HjlQxLkZtlCRMriVOt6kUUnoLfluztm+v4Z1ifAFQS/lxsmI67tIM398fCaIj8aUZ",
-  "encryptedSha256": "f424bd6495e3de92eca3ff07cc989a31b8378bcb694b8945a36b2852a2d3b9ff",
-  "apkSha256": "7ebb16a8ffad7c845caf0e786ef205e72ec4c904bc059be6aa02be8db7e636dd",
-  "encryptedBytes": 22855927,
-  "createdAt": "2026-09-14T14:47:14.477753Z"
+  "nonce": "XjC8N4cLk7Bqekxo",
+  "wrappedKey": "YnOl9LrC0YQgY0UQ5vs3vijGWFFTIm6AsniDgKjQSQtyW8pG0XGLoFWGfdULQLy3cnTB7VRTifP4RG6iTIMWNcsjjnyMljLqoFFWoc+IcZcKyO1sjswcLbO8EtwkhXXWOLBIq4dUwFtJ/mNbbvrCNUTdbY5eIxt8Pay6Tg9lvfOh2Y4si1lj359OxyOMh7HpEJ5mcQfkICp6qCio3tRuj7/IA2zN2kdMPiywqLJ15NhXdw/k6Uc0qzhmJDtmj6sG+GxhA4RS2Wej9X1UQpxRm+i8v0Gvs4S+r2SbIOzjezH8TfBdFxxhDO6eohoUpS3msGNfvPYMULrS+9B71fRBvqG2UC2maEtXX+9CB0JMN5OQ4cQ9JumpucRMWm55oLUq4Cfu0lmLTOsvS4fOTUj6BzXrc8JwqD3Csh0LmaCUtGtOHDo/OVZg4Xqre1s3haFCbu1qixEBqji/lAGYNauoT1D9L+EtygPR7BbuYyQNm3sBDvrZi3tcSPWgx46ro7RS",
+  "encryptedSha256": "7d34f89be5fe97f33f3634eaa768642d5f34806007e0c1cf037a7d0d06b8afe4",
+  "apkSha256": "92cff49093612dfcfcff91b6e8cbd9f69a03b5dbf8204b13d822bb97d5455a59",
+  "encryptedBytes": 22989003,
+  "createdAt": "2026-10-07T13:12:00.314184Z"
 }
