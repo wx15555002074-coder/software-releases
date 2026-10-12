@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 18,
-  "versionName": "1.1.16",
-  "notes": "新增大厂风格收听成就页面、头像旁听书时长展示及多端云同步",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.16-18/latest.apk.enc",
+  "versionCode": 19,
+  "versionName": "1.1.17",
+  "notes": "修复喜马拉雅听书在线流式播放异常；优化书架资产导航订阅优先呈现",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.17-19/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "FV76G3qUHATZbban",
-  "wrappedKey": "w2ilhJJgbeIfisbrvp9wjcp6CUwooY74Tp4jVvtU5nnT5okEB6yITgZlCSnGQ3YgwY6TYIaC7yt2HrWBeGQDsB6mZWNyHJNxMCwEdpMMbUeCZCqA3JoDxAAcwcplGY6CCviyqAn+nmhnOofIVS7M/fHo+9aElBiM+1LWi3fIhgV2eOX1JVncRInw7K5AxzbvI28xlrAJV1NXfQUFC43cj0FuwBTTK89vvUzPkrQUozHk25nyoK/ZI8ucNuVcrC1aY0PIjDuLW5oz4tCl9Spj0gSAFfs8QqgKS6IMu7Kt31TKYDCYuyJ1SwEPcjgZqp+bSqHKIOvo+63PIwEbUn3E3W+fT6UyUNPzkq3k7HDMh3/fuzBNO4OKi8voo6//+IxfufCrNQwTaKYTuvKYtWF8coLfq8wf8rLt9Xt1hslUnYQswelVZpjn2SYZ3topABSqIBTQ75pZeW5PjNx9d1wXHHc45OiPlVQZsZMgxlANrJHWSheMHbDG7C/2/EvfCsr7",
-  "encryptedSha256": "c9d52b091db51e9225e725e35bf94f2d8134f10146a4497e740da4598048b3db",
-  "apkSha256": "9ad9feb91d7dd5013850e3dcb394f1f90bf5adf6ebdff13835bf35ef5ce87911",
-  "encryptedBytes": 22989539,
-  "createdAt": "2026-10-07T17:50:41.379021Z"
+  "nonce": "2e0QrB5Ne3bxti0f",
+  "wrappedKey": "x75FZOu1LNQqTgwbmw4ezO8kOX16iC/rTTxSIC9kJKc9u59DK4Vu2vfgMCinDZBbzQXPp4/OzDgNQoTlxrMLg6r4OhjsEhx4KFN1meDsEZtbeo4MeACvMpghjcJIwHAa+LslMIp7IxcKsEvuXtGylD1ydDUbQcz7Jau2p25Mh9HKcL+j9D6RZL2X2cl7W3rWfjeKWVoPEb5Dd9JX6PEBN6JSw0S2JNnTeLrbVAEy0xCWfRIgm1rvenxoUzYlRonrtJjZh4B2MAJU5lA9SfXfKUSIpSN6WXFZCPGpdMQ1eMDEfPpIObyZeE+1qTPEDF/xPGvn08tBKRXB3/2eE9tpqEP7tNtWfVq+8EMHY+kmfNva1WC5V/2nkKjimi47sWFhwrgzAB35BNYHHbzcsFVILqkOFFkRvhSJZTf6TI9NmvFgP5UtLrTIy4PuFgi3NT2knBoTqMfBkarwkUi4P7aq0l4rzUthp2X3gSkhRtCEvjemEi6js5g992JNhA+FqFSL",
+  "encryptedSha256": "d1ff84f1a255e7aa31675a06e559ce02c5c437c07e666d1705834e1bda614a18",
+  "apkSha256": "6a29d2a09f1e350aa8d9ac1c0c41dfd192b6c55bfa332d672120f68698dff687",
+  "encryptedBytes": 22989283,
+  "createdAt": "2026-10-12T17:10:56.597476Z"
 }
