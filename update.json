@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 19,
-  "versionName": "1.1.17",
-  "notes": "修复喜马拉雅听书在线流式播放异常；优化书架资产导航订阅优先呈现",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.17-19/latest.apk.enc",
+  "versionCode": 20,
+  "versionName": "1.1.18",
+  "notes": "优化主播放键与悬浮球按键光学视觉对齐",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.18-20/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "2e0QrB5Ne3bxti0f",
-  "wrappedKey": "x75FZOu1LNQqTgwbmw4ezO8kOX16iC/rTTxSIC9kJKc9u59DK4Vu2vfgMCinDZBbzQXPp4/OzDgNQoTlxrMLg6r4OhjsEhx4KFN1meDsEZtbeo4MeACvMpghjcJIwHAa+LslMIp7IxcKsEvuXtGylD1ydDUbQcz7Jau2p25Mh9HKcL+j9D6RZL2X2cl7W3rWfjeKWVoPEb5Dd9JX6PEBN6JSw0S2JNnTeLrbVAEy0xCWfRIgm1rvenxoUzYlRonrtJjZh4B2MAJU5lA9SfXfKUSIpSN6WXFZCPGpdMQ1eMDEfPpIObyZeE+1qTPEDF/xPGvn08tBKRXB3/2eE9tpqEP7tNtWfVq+8EMHY+kmfNva1WC5V/2nkKjimi47sWFhwrgzAB35BNYHHbzcsFVILqkOFFkRvhSJZTf6TI9NmvFgP5UtLrTIy4PuFgi3NT2knBoTqMfBkarwkUi4P7aq0l4rzUthp2X3gSkhRtCEvjemEi6js5g992JNhA+FqFSL",
-  "encryptedSha256": "d1ff84f1a255e7aa31675a06e559ce02c5c437c07e666d1705834e1bda614a18",
-  "apkSha256": "6a29d2a09f1e350aa8d9ac1c0c41dfd192b6c55bfa332d672120f68698dff687",
+  "nonce": "BmaaaftOMseEPlwJ",
+  "wrappedKey": "DtA50BnUc4XFM6XhSCTPHtTxkZlR3FMQtcsw6F3HyPsiLyumaY+Dx8lMIs0PSGPfHHC17ll8qhSTiNXQn70iOKBu/EaegGywFM9UZ/xtBpuDSflaQTAfyab4+sW5gxXASkJTPB+QFrk2GkLaFN0WWXC8+zgKCu4mQiNmKHYKwsLDf4Cj9v7HenUt1xStHCuA93SnLcmEHFm7bz9ErcGTKHj2KaTWXAczINi434khc9f3xD5VmMwOxF2IFLtQOkte2LKZKoL3KtfKLLb0+TumqZFxgHlHusc/cqjnXi6faH/gPNtMA6KGal5aVbpwmoEJcWW6mA2KVlyupHg/Do+B+ZCdJh98E0WpqsdKIxAl9ZxG6jvCYPmM0itOLG9WHJWkCxUclqzPU9n4clsdHis15/6fGZypmYzBzuLv+21V6tnVrWPvWUjWfBZ13YzKbVUFQt27oMX11uquaGLudjvxWFpTRiGUQ+RIC/Hz7F7xkxbirB0blIFpvMNOrPnMownw",
+  "encryptedSha256": "641b4721bd6a6793848d5876c70a0ccc3a133a7920aa78a81f6e8f5a0e0c755c",
+  "apkSha256": "d03b14adf415a6930410e04ae3a45105a616a2ca9998b71464fb6a71ea7dff62",
   "encryptedBytes": 22989283,
-  "createdAt": "2026-10-12T17:10:56.597476Z"
+  "createdAt": "2026-10-17T15:06:56.045519Z"
 }
