@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 22,
-  "versionName": "1.1.20",
-  "notes": "优化播放器大圆钮质感与快进倍速控件视觉对齐，提升专辑氛围渐变通透度",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.20-22/latest.apk.enc",
+  "versionCode": 23,
+  "versionName": "1.1.21",
+  "notes": "优化播放页黄金比例封面与五段式播控行，精简云同步界面",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.21-23/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "7loo3Az5J6bbOkoC",
-  "wrappedKey": "YP0UXipW0xhoB4TDlgL5PYnVFXnDGxm/rJDQMMvDSYPxoNcqlhQVdbonVkpdQjrNkaEpkFblgw2gqPeYJque9i32MwewJ4HbAOv8DQGDEbn/gQhKsQVhJtzfvOPD3eCJEUy15h/4CZz8p1GA1pS6TEcq8OjAG6AoSK4lZjBIlkH0qlaCqrZzAHkSTMmsghz+DJBle7hy2iK1NqOUHND/0D+yztfV0drCnpvTT94lxKBzosflkixgZghyqf0pwK6iEXAnEsSUTQVmz0++Z1YzTc4+SJ4KcKscjOwoAkB+2pVb5rvQzkqsmGTZ5KBA+Fk99JiwNXfoYCSh7aImuJWeqGM1o7WobyrwfMtfGfT7w+B8A0iK4h6TcOHe4Zje8VVLJ3Le+OMbVGD0wIwiikvzolceX8vlHto4opsU/HyFPRsg2idmtoYBRvexsgHrVFyExswsppOrQ+37GZOPDgwJ5DFkKlFkv0VJna5AHN8R9Dm2D6ULyI6AWN4hRVivZnp2",
-  "encryptedSha256": "e69129c3f9968febf3ec894eeb9ad83d243401c423c9e5fe9491220dc1f2e4f4",
-  "apkSha256": "9ff8f44ba84321f55b66841ebfccaa58eacae6740c2f06163fe432f062a4c4b7",
+  "nonce": "z3/z1Vma+FBiZdIm",
+  "wrappedKey": "wKn6+wWBDO6haQgp/QJANalbHAzRme6YmLfwNsQKNoWJyfQXJb+nwQAsb3uq4AQQbtjIQT/CrMu8xHm9LO4PW19D+m4uQMa0YlrxfVAXAxBf/p0LcQRKS0pBImIiG7z6xheaVb28icL/VtemW9aow5IYwtepUS5rGayzTtR+KhIOfG6DrSYB9gdhnZVoduRphE3Dr+ZczV+0Wu4E747MhYN0mdda6l7LDiykfwVeUbCIsY+D6ua6MYXbhua/BxOdiiLU3AB9L9djtanQwglEvO+KcNjut5eOIHvO21nke3PFf/Utdl06RpnwM2SrB3jbLRzEodv4LfTCWazvhbT9fpnzZLUSrEdoSdgS6PbsBDmpsvZtchajkOGPe1oAzQwSQ/IN6keDXsuNwFmNBEBVVfziAH4j/Lprvfs9Ju9QA7l/T0TrO/rHvnryoAH7uQ4ynRcveqE88t0FK2NtE8nQ/KhzqTlFdwT6+EjhAy5ToOQJJ8/+IyW9tbNtgt/MXkgK",
+  "encryptedSha256": "2645e6ab05e2a6842ae9f9a61bd25fd7cc5e6ebcb64ffb6a411456a90fc475eb",
+  "apkSha256": "b992ae2c4cf835d9798617ec1bcfd78802e08e0842f49ecef1344bcdc1211b64",
   "encryptedBytes": 23186243,
-  "createdAt": "2026-10-18T06:06:48.652456Z"
+  "createdAt": "2026-10-19T12:05:54.334162Z"
 }
