@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 24,
-  "versionName": "1.1.22",
-  "notes": "优化播放器快进快退动效与底栏等距分布",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.22-24/latest.apk.enc",
+  "versionCode": 25,
+  "versionName": "1.1.23",
+  "notes": "支持抖音扫码授权及纯发包直连，重构短视频全屏流与真实收藏",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.23-25/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "U1Gt9FvzZsFFcFCy",
-  "wrappedKey": "O+D1NXxPeGy4zwj1L4U6+OV1xEMfk+CjqKWQQfMhy1r8YkQIgD3LqUizufnipQaVW48ZeKkryslL79ltI78oDiQdUd209/lKRXnmEqMcNwIVYan6B19Ef5Q5Dc8ufikqSABzUWjyBYq4EcdOSHYZEP2S1+Cj7gLU2F2W3BtnBqL2JYowimtUeDqKp6NBljSxrQSyLYJnsBgQqA3VD9yqaT6bhT0+ZFOiag/T0XxH63dMV2zS7J7cdHI31KppzUgxq/dZm1dweJDBbctKpCuXLzMXkGlHx2WgA/M+n1+MHSKUSxX4siknZqgBmL1Neoo9T5hSOYxZrz4pENl/AV3QeAUKZ78LtaG98DCBjUdxmb0rU2gI1+R+FHL2l7dqBEJ2wYWkEPX5ue2rqcPEu75NfnxoQo8OQ540oWi0/gBNkxnqTFed12ZFb9YOCRx0/SYNUziTlzQT4ZD3eBXLk6yDDyCCI9058Qsib6QrGA7iXhy46Q4kCr6xU0b7OHL8gHVi",
-  "encryptedSha256": "7df8ab0d49612e06c8a32a1847415966ce76ba94ccafa42db4036f3263aa0ed5",
-  "apkSha256": "bd627614e40730d5fe1d25ccd343d5b4d6c5496db24f5131a3245891be43dbe0",
-  "encryptedBytes": 23186191,
-  "createdAt": "2026-10-20T12:10:00.017641Z"
+  "nonce": "5axxr+KoEqY6V9Pj",
+  "wrappedKey": "RRWyleVZnRPuBEft33MtAYW7eUM5nxUrxIc1vSbuDjadSanXKkHrXTydgZJ6isN49XZ9xyuFd48Rc4/OoWY3UWzIO0C56xwmTGjWFAuPgK3c6IBfkwQvxDEHVp2QQVO0Vg+0dqVMrO8bWUajLp9eqHFH75cJRNShsWJtWz92SW/0w//zDRc2ZeOd0n6jCxa4q6IfVrLBq5Hz/IBbDHVRa5pTDfVZApGEXadrD+s+VAVLPuWqqDCVckYhYM6riC6JrdHvajKayYy+hXyqe2EZEwkL9JUJRZkQ7UUkdXjBh16W28nomBONaqWiN9k6/IkzHBEQO8D56SpiUWH16ngKERsTlZIxcpSaT4TaW2f4H5pUJRgv7Z3Xntf82IV2NXw2cLGsvneFM0R8a6fZwfYSxQPMyfFR0+8Ojc0OTP3JpPZykBeUcSolPZ2qhQvMmZ73eCR1IJVGCLPY20h+EhhuNxWfWiVfWbQzlNuKbfy1iZhd7j21Vg0ijFOtSzblxdoJ",
+  "encryptedSha256": "61610658462faf9595d1200a24ff9d7f2e1ae03bf8e22b592ce3e9c5e69057b7",
+  "apkSha256": "261978634e08dcf93c713b95957c5e2162c9b3da12998e8c20117e51ed681da8",
+  "encryptedBytes": 23507859,
+  "createdAt": "2026-10-25T15:00:26.017228Z"
 }
