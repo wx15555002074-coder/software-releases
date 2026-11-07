@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 26,
-  "versionName": "1.1.24",
-  "notes": "首页收听卡片视觉优化，支持VIP专享声音识别与授权跳转闭环，增加列表VIP标识",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.24-26/latest.apk.enc",
+  "versionCode": 27,
+  "versionName": "1.1.25",
+  "notes": "新增学习模块，重构桌面端布局，优化更新双源对拍机制杜绝逐级更新",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.25-27/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "LxtuO12g13Tn1f1g",
-  "wrappedKey": "oniZNlMnVC/+qveReyi4g8+1TLP/UPrYYASUp3o2eI8W5ef4UJp3klArNl5i/jcSMW2AQY/RiQ4jK7RaLWooaJTVMim+f4XBxBSkHAZ/A01ntZz+6tEg075MziQZQ0XbiTbR0eB7BkNYofWZLgup4XyuUUBH6ZIFupJWtvLEtwIi9y2QCYRckww4mOyTF0bwn1wU1tsi6X8T+nlS8IFika8CdN0jsb2fe91tddg5B8Yj+d+CM3vP4+jierWf3WBgvZjkiIf1bg5M+M5FGse/K4TFRjwgEJpkoIPyN1C9DXm6EnGE9B0rpJ07VhStznsRcKN0x3OqB9Dtvq5Hfi9P0oZmdjXv5dhJO9l0WDHTLutuF48LKukY1eP0vrOw3DErc6IXAeZzDWjwptgSbO/EfMVu2SGqh7gCmnbFmejwnn1MHHTGbhkriWMXD4FLWJOmFY8aiGe14e77OMu2nzXMGqCDdRqc4Q8tBHox86BHZYMGoMMuDZphms42e4hkArpN",
-  "encryptedSha256": "1224a154a62fdf2a813edc3672ac2ff356e26b3fac3fddf89d7b503cd3927108",
-  "apkSha256": "94c0a177fc4dd7bc96013b686a1277372a0aaa99b41b12e2ea002086dc93dadb",
-  "encryptedBytes": 23573515,
-  "createdAt": "2026-11-01T16:51:49.411935Z"
+  "nonce": "33ZKMDyCsANHavLh",
+  "wrappedKey": "ZTh1xgkUXF3hEKZh7/ur0TCbx+bdvgfh1DConQOmZWcvaS79ZhJuZRcCFeNcpgtTZcVRSA8a+avVj82rCiH9d9aw3Oc7nK1rtzWK3PrGT1AMbM6lODKvRAI9xrbwFbxX58p+7hg4I3vva+7lF47e0KtKXJVfZIn8y494ScfeoZMu7ezYdbwbdz7E5d3APF+qdxaW136Dk+HVPS/cq7GiJphM2FeZMOsOPjJ2o3vrHyXUAvmPVEq6yJvexzFkn5HORKLz8xvOlfZaOeYd+LRWYXZbkSCWXSzC/W38N6a8XxWcr0p/xdqUA6kISdR4Q45El5Y8PAXwijySCkAZ2+bYpwt5PnPfz9OQmUTef5YXKYweTLtg5HoUQJBFl6FxqEaWSxdZJwK9grwDwpdQMMR8gY20g91MuAwiw4ucEpEZLDDclxksFUI+KNmJQsVKCPUTyWr4KRx8gLi+2muOuR6X4NJ8P9+7H2OdXo3txFfC6wKV7BLj2Lk4x9nFRLJqKGgA",
+  "encryptedSha256": "36aba948a300c38fdb9d630997d81ec59de6e06610846bb90e729ded7f45de4b",
+  "apkSha256": "bc064da98a5629508fa4a34acba0b4c96eb0a7660210adf187f6530670c479e0",
+  "encryptedBytes": 23969855,
+  "createdAt": "2026-11-07T10:46:46.996536Z"
 }
