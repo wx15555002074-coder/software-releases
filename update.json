@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 27,
-  "versionName": "1.1.25",
-  "notes": "新增学习模块，重构桌面端布局，优化更新双源对拍机制杜绝逐级更新",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.25-27/latest.apk.enc",
+  "versionCode": 28,
+  "versionName": "1.1.26",
+  "notes": "优化网课边看边存与秒开体验，支持学习听书独立时长统计与分类榜单",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.26-28/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "33ZKMDyCsANHavLh",
-  "wrappedKey": "ZTh1xgkUXF3hEKZh7/ur0TCbx+bdvgfh1DConQOmZWcvaS79ZhJuZRcCFeNcpgtTZcVRSA8a+avVj82rCiH9d9aw3Oc7nK1rtzWK3PrGT1AMbM6lODKvRAI9xrbwFbxX58p+7hg4I3vva+7lF47e0KtKXJVfZIn8y494ScfeoZMu7ezYdbwbdz7E5d3APF+qdxaW136Dk+HVPS/cq7GiJphM2FeZMOsOPjJ2o3vrHyXUAvmPVEq6yJvexzFkn5HORKLz8xvOlfZaOeYd+LRWYXZbkSCWXSzC/W38N6a8XxWcr0p/xdqUA6kISdR4Q45El5Y8PAXwijySCkAZ2+bYpwt5PnPfz9OQmUTef5YXKYweTLtg5HoUQJBFl6FxqEaWSxdZJwK9grwDwpdQMMR8gY20g91MuAwiw4ucEpEZLDDclxksFUI+KNmJQsVKCPUTyWr4KRx8gLi+2muOuR6X4NJ8P9+7H2OdXo3txFfC6wKV7BLj2Lk4x9nFRLJqKGgA",
-  "encryptedSha256": "36aba948a300c38fdb9d630997d81ec59de6e06610846bb90e729ded7f45de4b",
-  "apkSha256": "bc064da98a5629508fa4a34acba0b4c96eb0a7660210adf187f6530670c479e0",
-  "encryptedBytes": 23969855,
-  "createdAt": "2026-11-07T10:46:46.996536Z"
+  "nonce": "TcXOy0DgnnxoWjHm",
+  "wrappedKey": "tg4fjPfUR2aTr3feLEPHLiopbk7oecE9aCy2W3hwttjfJyfIIU5KPXTnOB7mLfBXglHFJhyK6G76vg7h2SblY9AkBfKQhA5EoUA6HQV24IJCUUsCu6NPlq+mmuH2ro4unKrwDSj6pHUd65maentZe/8Yw6P2sWZkX0CC/fRFyeaTnVDWPbX/DOp9uuCalbfS8a37vxCfFKPJF/TLdGkuE/A4zs7d3mORVV0+3b0JNAm9iJPyYu67gnwpmdURDHfBJ4gwD/96H2slTQokRYnzszQPAzbma+hKUmcB34PPFVZdQ0W0wtR9ip6ffbhWv8I8U1EhuJVMwPfbmiqpt+nlwqjLB0hBKGSONE2fgQtpCB4ORrtVfnE0T4XJR8lFVU4EjKhTD0il7Szszm+mbvAHhpR5bJxJ4F3dP+LF31h0mE2tPmKg7Kwrm6ld2vSApNkxiV+MeF32eMr0903iqrI5zyZ9LQemW7jMAqDabE7w9gqCU9Bs5+8afP0ZtKWp46oq",
+  "encryptedSha256": "f3001ec08bd6cd552999f42ef54ad6fbf8b8f533a439fc86bb609b983b5c6184",
+  "apkSha256": "343213e1b08897bb92f247138e8022a135fb788a7659785eb4483927e1fa458f",
+  "encryptedBytes": 24100987,
+  "createdAt": "2026-11-07T17:34:18.218693Z"
 }
