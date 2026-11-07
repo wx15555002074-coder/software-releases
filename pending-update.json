@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 28,
-  "versionName": "1.1.26",
-  "notes": "优化网课边看边存与秒开体验，支持学习听书独立时长统计与分类榜单",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.26-28/latest.apk.enc",
+  "versionCode": 29,
+  "versionName": "1.1.27",
+  "notes": "全面重塑应用名称为灵嗅，精简桌面侧边栏与弹窗布局",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.27-29/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "TcXOy0DgnnxoWjHm",
-  "wrappedKey": "tg4fjPfUR2aTr3feLEPHLiopbk7oecE9aCy2W3hwttjfJyfIIU5KPXTnOB7mLfBXglHFJhyK6G76vg7h2SblY9AkBfKQhA5EoUA6HQV24IJCUUsCu6NPlq+mmuH2ro4unKrwDSj6pHUd65maentZe/8Yw6P2sWZkX0CC/fRFyeaTnVDWPbX/DOp9uuCalbfS8a37vxCfFKPJF/TLdGkuE/A4zs7d3mORVV0+3b0JNAm9iJPyYu67gnwpmdURDHfBJ4gwD/96H2slTQokRYnzszQPAzbma+hKUmcB34PPFVZdQ0W0wtR9ip6ffbhWv8I8U1EhuJVMwPfbmiqpt+nlwqjLB0hBKGSONE2fgQtpCB4ORrtVfnE0T4XJR8lFVU4EjKhTD0il7Szszm+mbvAHhpR5bJxJ4F3dP+LF31h0mE2tPmKg7Kwrm6ld2vSApNkxiV+MeF32eMr0903iqrI5zyZ9LQemW7jMAqDabE7w9gqCU9Bs5+8afP0ZtKWp46oq",
-  "encryptedSha256": "f3001ec08bd6cd552999f42ef54ad6fbf8b8f533a439fc86bb609b983b5c6184",
-  "apkSha256": "343213e1b08897bb92f247138e8022a135fb788a7659785eb4483927e1fa458f",
+  "nonce": "wG09OZ3RKAc0ZjrQ",
+  "wrappedKey": "dNetf+YO9CaN931Qqnvqw3397ldsvpreK+LYTDC5mqUhYbH3q1AwrAtZrP1PNXI90iwJZNlXdoqPL7qIf5zYAZ+WSlGvCtycbU+16lJLPvm1ZB+8JgauV8JR7WZv/MArHGWKhLKcw7QOcskK27sSQOs89LhonqfQW2omPNGVeD5R8nl/o4TBLRmztXWyiLiYSDfJ6XPf7GuGqo4kjAT/+ZbId/lloZiUEIEkWfwKENeUyNZyBqnhm6DYPr5vQPpBnqO0+/V0dIiNl0ed95mSnK4XsnFpJeUBs+8q+OM8LVsh8/S5/aD95xg/DMIdFzRxkzvBmjhopl8g/M7LqxR5D+oZ/ML/BnjTxeTac3W1jV0S0KjuQfOhF92hciptq3jbPRH5NaM6JKtM8Yy+LtyXgTGwbX+h35V4GneiCr4SoIZueWJX6N5+n/uRtHB/AUu3TRybbc/bFO4YbVvOR7DMM3hCzCku3aD0mxMpJTXHkVRyYrU4a7q/F8aBoFe5wI+d",
+  "encryptedSha256": "2de8ebfb4e68d45a0377a48c9572f078455154a806337b311bec57f2d73c11d1",
+  "apkSha256": "462bbeadd9ee60d6b10f9f807e66ce4e28c2c620462f5a82a883315cac41d5f7",
   "encryptedBytes": 24100987,
-  "createdAt": "2026-11-07T17:34:18.218693Z"
+  "createdAt": "2026-11-07T18:14:46.879891Z"
 }
