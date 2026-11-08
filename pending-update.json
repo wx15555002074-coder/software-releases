@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 30,
-  "versionName": "1.1.28",
-  "notes": "修复Android端视频播放报Source error异常并放行回环网络",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.28-30/latest.apk.enc",
+  "versionCode": 31,
+  "versionName": "1.1.29",
+  "notes": "实现视频播放页面全屏与横竖屏沉浸切换，优化长视频交互",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.29-31/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "7qpDO9+cp+5jiPpt",
-  "wrappedKey": "nn31Xh5GSJteINe+G8TTgEReQX37lASnYR0+wJkiyAnXYNPt/ilgJCrns0N0s9PyLoxIXfI2hf49yqONnaKryCoqKh4e72Mi5epBTK8Ab1+lq+yrue9y0tS+GYIP3/waMGc3BR3I6M3m5nas6vr/AuSiS2CuDapQVp+cteGSifGn9Ozmjvt7//m5NeXjkPAbUhq0jQR4U9wV89i4QtFxtzF0IFO2Kb6hE0V0N8HJo2HjKhn5xvzv92BNRVaqMtZex4DTdJl5iAeHj+C+k2LU7tFD6fJEBsvHBKq4I7sPwzARwneWo7yE0Yjhk1o3gKXQzare9zJLOz4oGKqjch2fo7sXVHRJi3Xeb21BXHZINiXKzCbNg5M0PGeqInQ4HrscbNBLIyGwHACGNHs6W3/OJl/RRvsLUNOylEpIDnp1Vhuoa93APQFc1ULAiGN4D7MqbafJobFIRrmb97EEfYzuXcVwTI7Fv6A/kyuASvf+nROEuKfbiyhSlkp2bYwpI/kB",
-  "encryptedSha256": "96e7471529a8c99f3d5da4d373ee0e906c037cdb3c743e057e0bbd22edabb104",
-  "apkSha256": "9c1bcad0c83c737b8648c32becee3a9fd836f5667c3e4ae78e20a2389817a169",
-  "encryptedBytes": 24101011,
-  "createdAt": "2026-11-08T05:13:25.388981Z"
+  "nonce": "4hCldajxFhcmzvxg",
+  "wrappedKey": "0RwkZPl+qXmtLuOw/OAI8UoT08kNJqYylXgJXVHA68jFTvynOKBbIYe7kRtMBPy0LcVQYmswnn8MBKAMFF/fiPXhBWTtPXRpupKAMo6iHEUeFU9JI5kQonzNOzdgXRlutp837sevHw2QTUb5n0U6encL5HnHda9VfRZSoh2l4I+KEPJ1whXgby7Wm2PhTHw+OaXAqtAOm/dD6hMlTJlw1MdLSY7CB91AhkGOpULYyxJEH1jyIU1Ij6FjUtOY1769XtVi0jGTaqxTpuOJwaP5G8uzLkdDvPjMhW7TXNxQeBnOCBkvlYX1w55DosYDLwosT8TSLFXDiJqWTEi6lh1pLLAMdC+On0zbvGQzFieQZtQkthsHTPleR0fUOuUrLxsB3XrOvxR4yFLEAUqUfRCizm4lQdDYGUeRiosis4ZJdj1+sKzjrzvAm7JeMQVZJgh1BpnlzeD8MQc+ifKMxtNo/GHkCCN4SWWclo+cO35cZk/IdbLgDqYspiTCg/XFJ1Pu",
+  "encryptedSha256": "fd80095e7c72d47d94afc4738dd19f150932a15c43c0180de992d8ce606907a8",
+  "apkSha256": "5cb2774d8ce7cde787e3638af7de538cfb2e6b1d3c89b7dc583a79198a096a15",
+  "encryptedBytes": 24166663,
+  "createdAt": "2026-11-08T14:47:35.431608Z"
 }
