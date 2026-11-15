@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 32,
-  "versionName": "1.1.30",
-  "notes": "优化通用视频播放与断点续播，提升离线缓存稳定性",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.30-32/latest.apk.enc",
+  "versionCode": 33,
+  "versionName": "1.1.31",
+  "notes": "重构学习专栏分类与大专栏聚合；优化期号开班时间绝对降序；修复小鹅通302鉴权",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.31-33/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "4FHBC/VJ6lsG1Qm7",
-  "wrappedKey": "nS+ptnNAkVOk5tLUNYcU+HdbHuvCDX9NM8HPLf98KGZec4m/3OCjgzs1ut6lxQQzRYwaNidh79ajIqYehKSdH7cZr+JaQDLa8wHvG5g3xSLXwm9VFCjw3OsGAXJMnYqxX+Lp8Iz6jz/iy6dQaDqqTB/8iEeqdL5AVXw1yOpdvpU9J+thKDG3NG9k50pAJIomg3JME4FcNDhBn0X69Qq/1zJsMvq1W2TOYmF0/aeblxbDTtA2K1RPYh3T/76rM9uKmudZNK9GNVNPAs1E6yphFN3HBTQCLly9bmhvyfEO+Rpz13RG8Tbow2fwlmsHRYxJ1YLBwAp1/tGDP/qOAH4qCrtzn2ZCqzaf8ygk66XlyvNRgQbEijRDoAA1dEy0yGZAXY40KLr6RiXN8BUU5xIiKmUM2swy4K9/E7mPYHlq279jO8LmLrHeSjQKS9FPmzgNH3Nig7TU4buzwOhEgRhKRukAQcLyJOb3TxNgVEpNke9gdO8inv/Gnf4KSqMDNdrh",
-  "encryptedSha256": "f68f38c6bc83c3762e411937ce3a9418580ec33c1aca97cbaeb6221c4a05e81a",
-  "apkSha256": "ba6d196e0d2511ca68ee1db5daa9e4af2212347a041668a633860cc90c2f0f8f",
-  "encryptedBytes": 37129742,
-  "createdAt": "2026-11-14T17:58:33.426533Z"
+  "nonce": "lcYHNjvA6PuFIqw8",
+  "wrappedKey": "i3OPgT+ah+rfpktz3uCRgt8jks0MjlE0e0NiBxeHdHYKFPpiX2adAHQaqLItTc98HIL+EqItCZeWm0BO8rADL32yLBOAcJvFYgmmdNo6G5rNDeImKC7J2SFbfE0dTBRXnolKB4yzA5St0pl/PJmuWQ+SvfWR3a9vRX4BsogeNgxWXUjnNHBxOte8ZbcMmYUo4jVhe1pS/THv5LnzNDNb21Um9Yq+Y/LnEwtmDyV01D1ohWpLgXPSF5ENI7/GwnP4cOsqaf0Y0rWyQqFHK3Trz2bQaM7nue2871c8TiNzJVu5BBsf8kr3iAhY5iLbucx0SwYqQrLYovl/+F1+Qla7bqz39PTBCdSN/psFpaUZFT2a2SuEygLkcee7OqpOz3vqOQ2fdmrFEhHMkAk03ZMwK2bwjb96/Hs1GdZIZedwXkxoFETwrk22cRAWRJN71c+sbux79zEu9VGR4menc8EjirOHUpEHBeoBTu55bhhq0KB2lVeVPU7Y3mKqKNUw3DEK",
+  "encryptedSha256": "32b2c3c1836a5d97fad75e0c4b4ea67957f6948f9b7de979e3e8195890320116",
+  "apkSha256": "d583faeffa18c83cbc5b2c257bfa7692a102e9353a9c8e30d2341db612d841a3",
+  "encryptedBytes": 37260906,
+  "createdAt": "2026-11-15T17:11:45.494250Z"
 }
