@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 33,
-  "versionName": "1.1.31",
-  "notes": "重构学习专栏分类与大专栏聚合；优化期号开班时间绝对降序；修复小鹅通302鉴权",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.31-33/latest.apk.enc",
+  "versionCode": 34,
+  "versionName": "1.1.32",
+  "notes": "优化首屏启动并发性能，升级短视频交互与评论弹窗，优化桌面端设置与数据源管理",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.32-34/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "lcYHNjvA6PuFIqw8",
-  "wrappedKey": "i3OPgT+ah+rfpktz3uCRgt8jks0MjlE0e0NiBxeHdHYKFPpiX2adAHQaqLItTc98HIL+EqItCZeWm0BO8rADL32yLBOAcJvFYgmmdNo6G5rNDeImKC7J2SFbfE0dTBRXnolKB4yzA5St0pl/PJmuWQ+SvfWR3a9vRX4BsogeNgxWXUjnNHBxOte8ZbcMmYUo4jVhe1pS/THv5LnzNDNb21Um9Yq+Y/LnEwtmDyV01D1ohWpLgXPSF5ENI7/GwnP4cOsqaf0Y0rWyQqFHK3Trz2bQaM7nue2871c8TiNzJVu5BBsf8kr3iAhY5iLbucx0SwYqQrLYovl/+F1+Qla7bqz39PTBCdSN/psFpaUZFT2a2SuEygLkcee7OqpOz3vqOQ2fdmrFEhHMkAk03ZMwK2bwjb96/Hs1GdZIZedwXkxoFETwrk22cRAWRJN71c+sbux79zEu9VGR4menc8EjirOHUpEHBeoBTu55bhhq0KB2lVeVPU7Y3mKqKNUw3DEK",
-  "encryptedSha256": "32b2c3c1836a5d97fad75e0c4b4ea67957f6948f9b7de979e3e8195890320116",
-  "apkSha256": "d583faeffa18c83cbc5b2c257bfa7692a102e9353a9c8e30d2341db612d841a3",
-  "encryptedBytes": 37260906,
-  "createdAt": "2026-11-15T17:11:45.494250Z"
+  "nonce": "kOSQH6hfz4/SUkeZ",
+  "wrappedKey": "toFfevjBF6Xi2G9P9ZvFbkYL71O3VrW1n/FdCUNQWafHS4IsyJgyiPNIt5Z2EptUSAJh4eIlDtYLfIWVGol9pHtMSbRMB0QufLCE9J+iFdq5+03zpAo647L/BqzROUIcI5ecxw2UkllfhlYvoSHADn0WnBgWduNieoUWLHAAUArk8/dX/hAcC/JKeXT3c6ALEAzvEqArVqGKLUpcRmmKbGmjO9CPsES1ivIkxpmDKJtPb1gB0Lf4pMjyo6HBOfUf1NA7910SpLVRcEqE9IkbY8dOVEmCZJC5Tp/j9rak+vYuTVH/r7iZ4PvnNFSQnvdnlwErRnPnqU6EI281cYBtU/CctIXao8mQwGrRhq6mK1ADq0BoAffnKiZdL1sKTn/Hu9jK4481uwUdEDIlG6W+B2nAcGBXfC03FBxWz9GI+IfdwfirBSCtzcnY6vXs07TLrvq0YNcaCDqJsvUK/reLmUaBxpyfp5MlONIogkf8mz9GmKij5c6f6UxXRy9VPTyI",
+  "encryptedSha256": "27733d9219c346417ccfd9e1094006048e4d3664f85a9a97fefed79552ead5cd",
+  "apkSha256": "6bc0651394b03ec3c398c6ba9aa9bd41c3e4f0af6ceb2815f51dbcad3ac456f0",
+  "encryptedBytes": 37328522,
+  "createdAt": "2026-11-22T07:51:41.634878Z"
 }
