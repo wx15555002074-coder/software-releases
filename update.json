@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 37,
-  "versionName": "1.1.35",
-  "notes": "多节点官方更新清单竞速（国内直连免代理自动择优：testingcf/gcore/cdn.jsdelivr + GitHub API/Raw）",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.35-37/latest.apk.enc",
+  "versionCode": 38,
+  "versionName": "1.1.36",
+  "notes": "修复Windows桌面端自更新ShellExecute脱离进程与robocopy替换覆盖，新增真实百分比进度条与按钮进度",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.36-38/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "CMrt6RHgOTceAhJ2",
-  "wrappedKey": "7AsNGhyrxr9nwjXCDvsDS72YZYbGidHiPkLNhFlxdiFcv3nFiMnCdTN9NYT+jqv4KSmQdRvvlSA5AtDXjmJ9HTIEJgsldCbZevBQaWrVlodP54NQlBytd+lAEVoJ41U9aVaIDUZMW52Bna7EFBsm9jcPkeCFXU3IPu0+GpcYOyYvzoCDpOqLaznmfatlR/DBkK8VWmr1I56mLtAyqyo4qdRB6wdTag9bWqWE1uBwp65+obWMuUysxCzioy8yEzPLFBeYjQkBDoelpgVp0h9oSkS0Uvrxp/DjVod1rSJxPw9MMR8gf7sMLMBdyj51qPi4ocyq7pHvBf21On7097pHseqcE9beyN/A60dW4AcCe6EtS6yZI+lEYqEUD33f8a1Z7DmJggJmPHKr0AYVyh90fTtaDIXME7tzuVjZIrE/Lm7mePGx/mEz0DJRaKQ689hMDUYhDpV4wkDgdKr27Cyep934YweE9x9zFzFOoph+bs83D7CrJMTHAZlmjnB9T52c",
-  "encryptedSha256": "76a4dcf5f7e14625e131b3494a103aa602384afdced307a0500a10fb7e05dcc7",
-  "apkSha256": "60568f0c423609f86475bbc25927d0291091d60936647e9f8e7ae22a07b2012d",
+  "nonce": "kZByTogfFjkJNzbv",
+  "wrappedKey": "elhUSVQpHJOCoa8o+G0fFcHwAtoqm48vkYGsXEvCncVAtReKdmHigI2sQ1QtJb9MjdDfaoeJR79AYQHpqrhjNPl5dv5a5tUPbgC7lcoRy2G3RtgvbRbT3DnRxYl0M875pzACWuM1H46SyQ+U4Xhrp3SqZ6lrizCnZ0+1A2PtQliQUXXd1TgCytDG33TqUJB6E9Pc/7iLmoO4t+wBMai/jZfinXgh2MpamfmPPr0dP9YfPgRXgH9BUSwZ3K4Xcurj0T2PjfuIumfUhVA0DGaf6bFJXXfzcxS3m+lXoN01RPAavLurNcNg5gtaMyn87vOyQOzuTIFecjQmE1TqOPYIjBPB+MVpKL7XmK9jyv5dFHxTPeyfLy+27xNi1b7QhfOCVipV7TiTF9R9sVAVuxhb2LZksSzoVAK549LxGLHN+lhwfAKqv//27+1PmAQPg4+JQ45lvBlcVVta4wSdp68zHRHJBpSaLlYecDthtemRSPcbfMJXfURiyjCLrwVyXIsK",
+  "encryptedSha256": "49a2d1b00839bbe260598b211f2c91d14890bae2dcb5ffe33864e5892e548f67",
+  "apkSha256": "9fce54b21677d71d11debdbe130de25401882f4ee1e8fc12b7a2df32e89e2430",
   "encryptedBytes": 37459794,
-  "createdAt": "2026-11-28T14:42:06.257105Z"
+  "createdAt": "2026-11-28T15:02:02.399984Z"
 }
