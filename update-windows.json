@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "platform": "windows",
-  "versionCode": 36,
-  "versionName": "1.1.34",
-  "notes": "稳定性与安全全面加固：音视频互斥与缓存校验、云同步墓碑与Worker升级、本地QR编码及UI交互修复",
-  "packageUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.34-36/latest-windows-x64.zip.enc",
+  "versionCode": 37,
+  "versionName": "1.1.35",
+  "notes": "多节点官方更新清单竞速（国内直连免代理自动择优：testingcf/gcore/cdn.jsdelivr + GitHub API/Raw）",
+  "packageUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.35-37/latest-windows-x64.zip.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "0JCWsx6LyRBr8Din",
-  "wrappedKey": "G8IxGH6Pky9mgiVFqf2rbH0eHA2NvHq3y6Sddnc8PjNWQuiDtgc9pKgtivH8zoSWjsl3DRlSD5bGKm2EU6MZExKR0yyVsGGF71AIB66Icr0JqoVHStzn+WU8s59Eifu0uVAH5a6VMLVEGtNG+0wClCUcfgX48xKWEvjIr+DEBAoJqtLjyi2GULqhYb7Q9vDUhy1ZDIhtAwna8ekOWjEVrb0b4boXLqNHBKGP4d/mxxElUcL+aYcIxjmWE4R7AeLzTT3LQh3Dct9mP8zqeV/9CpbUMRAbgHrD2fYxGdn+JB5z8L95xytGWmmn3I83YcJ4E1MHkYKmjbcAHUgXe5adxjgfD2SVnHN/5fCDCa4vQBSJ+IqDF3ODnJ2O3W9R1udFLGaUJ4F7n54Q3epQWffI6MjAdnTfEq/kcZ0pu9DsPmfl0QJPOAXBWIv4MKmW7peo7z3KqIq0Rghifsqirc+Z/Wu/L9/lGY1FxUVT6hEJh5VCHsI6Dx+53mqUN2YhnYZL",
-  "encryptedSha256": "8d104b444c7827ae492fda401b71b7185d5a387ed32b3baaf0f31b562cb31842",
-  "packageSha256": "c505848be5a0629c3ae43f67e64e2b28c6e744d182a28647555fb241a70e790b",
-  "encryptedBytes": 35272604,
-  "createdAt": "2026-11-28T14:14:16.525710Z"
+  "nonce": "TLhgfg0KFXH6zmav",
+  "wrappedKey": "HApCETzhCsE6WZrJgylg+y7rJt6titCdc1valUFbc5lX+zTPJc4casLmsuJAqWhwbOl1aWEeg+idkzbwXnKKoJ+kGILLpSF4R913mV5xqyZPILo71S9sHgp/xjYWM5m7UKRbDg/b6ZDPtATap9slbI9xe4tksmZ7JZI2uEok78oDa3Q4RHssUg1hxeGG3jOKP9ApLgrZCKayoRtnhzfusyNm04LyRMizrcljrMbF/CulWZ/hKLiNJAstSfYbk3LLU0tbyEP/qSYqdG3tVmbp2N9bW7a5oWSNU0lBEus7OlY6QoT1LrT2zhlxlwSaJtS3MCs3CTaetA8+DVd9YkolB5GWzBkIzTaKSKKnV4m8XMJ1LtieDPdXklwnLkiUE4ZJhGEn3f/mNE4ihlcm3g1M5vOFTKRELKDOsK0YObXA9ed8XAMqsAXxrYrQnGe4zjsZ+JFGN0BY7OBXHhLsVhZeUSTL2swnQOJaBpzpBOb9dbpd/pdIEoNh8+sj3luOcqso",
+  "encryptedSha256": "4040c3afee98155580c6a04b6819b232d80c113866eefeec0b486df079a719da",
+  "packageSha256": "8ae6ed472e8de8a05c0c376befa7b75b8f02896ba90bbcee03a09675053ee2c9",
+  "encryptedBytes": 35271503,
+  "createdAt": "2026-11-28T14:42:34.670480Z"
 }
