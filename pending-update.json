@@ -1,15 +1,15 @@
 {
   "schema": 1,
-  "versionCode": 36,
-  "versionName": "1.1.34",
-  "notes": "稳定性与安全全面加固：音视频互斥与缓存校验、云同步墓碑与Worker升级、本地QR编码及UI交互修复",
-  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.34-36/latest.apk.enc",
+  "versionCode": 37,
+  "versionName": "1.1.35",
+  "notes": "多节点官方更新清单竞速（国内直连免代理自动择优：testingcf/gcore/cdn.jsdelivr + GitHub API/Raw）",
+  "apkUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.35-37/latest.apk.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "AHTeABUstmuaL8ui",
-  "wrappedKey": "UaA0gElnX9keR4QnSCgJA8UVI/lGImYsRI9Q94ZjyK2w/ErP52AVThid6dMC4IJ7DCbmNYiJamLl9j15eqq+ivpyT6VASV3ENjb8txY5xH0Q2YW71pUNXxTtfmuCZ4Y72VhTUzC2WB85Mp0ejR6dbHZEN8UWSXW3chLLj8wy1F/y9eil6dXNcTjdNYwKJCumFsM8lj2Ozq04JRdQWBuIYnpPJoj6/U++n2uDRCQafQ9Eiz24xFPAkEvrBVb3rITdsBrvCCioVYnqkv6iZ31PFnlIPBLiAjQ55CQuYryvp0ftZaRTyg2NFzW3wxAYVo5k+4JpFEGPfuZ1uFEJnZkNTUu4ZBbExJPxl+dfwmo+VmsmzHNHbWXQ4AQclPzH4BdUcDivN9qu4GTocFZW7PJrbzFsTeaSU0YnDA2pzS2Yxs4VIX3PzI1bU8DScsip2l3pFDznBgBhpaAFgYpQrgD/KTyNa0ROG+9HidhTfyqcCipUiCBcW74jNBYT5jdVb/bS",
-  "encryptedSha256": "f16403c7bcad723af5d483545f96154e3d4e3594cd6f14dddfc0e1427628400f",
-  "apkSha256": "c57b9e3690baf1d3623907a40d97cf74da715d326b9d58c741aa7bffa1a62e21",
-  "encryptedBytes": 37459790,
-  "createdAt": "2026-11-28T14:13:50.779139Z"
+  "nonce": "CMrt6RHgOTceAhJ2",
+  "wrappedKey": "7AsNGhyrxr9nwjXCDvsDS72YZYbGidHiPkLNhFlxdiFcv3nFiMnCdTN9NYT+jqv4KSmQdRvvlSA5AtDXjmJ9HTIEJgsldCbZevBQaWrVlodP54NQlBytd+lAEVoJ41U9aVaIDUZMW52Bna7EFBsm9jcPkeCFXU3IPu0+GpcYOyYvzoCDpOqLaznmfatlR/DBkK8VWmr1I56mLtAyqyo4qdRB6wdTag9bWqWE1uBwp65+obWMuUysxCzioy8yEzPLFBeYjQkBDoelpgVp0h9oSkS0Uvrxp/DjVod1rSJxPw9MMR8gf7sMLMBdyj51qPi4ocyq7pHvBf21On7097pHseqcE9beyN/A60dW4AcCe6EtS6yZI+lEYqEUD33f8a1Z7DmJggJmPHKr0AYVyh90fTtaDIXME7tzuVjZIrE/Lm7mePGx/mEz0DJRaKQ689hMDUYhDpV4wkDgdKr27Cyep934YweE9x9zFzFOoph+bs83D7CrJMTHAZlmjnB9T52c",
+  "encryptedSha256": "76a4dcf5f7e14625e131b3494a103aa602384afdced307a0500a10fb7e05dcc7",
+  "apkSha256": "60568f0c423609f86475bbc25927d0291091d60936647e9f8e7ae22a07b2012d",
+  "encryptedBytes": 37459794,
+  "createdAt": "2026-11-28T14:42:06.257105Z"
 }
