@@ -6,6 +6,8 @@ on:
     paths:
       - latest.apk.enc
       - pending-update.json
+      - latest-windows-x64.zip.enc
+      - pending-update-windows.json
       - .github/workflows/publish-release.yml
   workflow_dispatch:
 
@@ -13,7 +15,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: android-release-publish
+  group: app-release-publish
   cancel-in-progress: false
 
 jobs:
@@ -22,97 +24,117 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Read version
-        id: version
-        shell: bash
-        run: |
-          version_name="$(jq -r '.versionName' pending-update.json)"
-          version_code="$(jq -r '.versionCode' pending-update.json)"
-          echo "tag=v${version_name}-${version_code}" >> "$GITHUB_OUTPUT"
-          echo "title=App ${version_name} (${version_code})" >> "$GITHUB_OUTPUT"
-          jq -r '.notes' pending-update.json > release-notes.txt
-
-      - name: Verify staged artifact
-        shell: bash
-        run: |
-          expected_hash="$(jq -r '.encryptedSha256' pending-update.json)"
-          expected_bytes="$(jq -r '.encryptedBytes' pending-update.json)"
-          actual_hash="$(sha256sum latest.apk.enc | cut -d ' ' -f 1)"
-          actual_bytes="$(stat -c '%s' latest.apk.enc)"
-          test "$actual_hash" = "$expected_hash"
-          test "$actual_bytes" = "$expected_bytes"
-
-      - name: Create or update release
+      - name: Verify, publish release assets, and update manifests
         env:
           GH_TOKEN: ${{ github.token }}
-          RELEASE_TAG: ${{ steps.version.outputs.tag }}
-          RELEASE_TITLE: ${{ steps.version.outputs.title }}
         shell: bash
         run: |
-          if gh release view "$RELEASE_TAG" >/dev/null 2>&1; then
-            gh release edit "$RELEASE_TAG" \
-              --title "$RELEASE_TITLE" \
-              --notes-file release-notes.txt
-          else
-            gh release create "$RELEASE_TAG" \
-              --title "$RELEASE_TITLE" \
-              --notes-file release-notes.txt
-          fi
-          expected_digest="sha256:$(jq -r '.encryptedSha256' pending-update.json)"
-          existing_digest="$(gh api \
-            "repos/$GITHUB_REPOSITORY/releases/tags/$RELEASE_TAG" \
-            --jq '.assets[] | select(.name == "latest.apk.enc") | .digest')"
-          if [ -z "$existing_digest" ]; then
-            gh release upload "$RELEASE_TAG" latest.apk.enc
-          elif [ "$existing_digest" != "$expected_digest" ]; then
-            echo "Release asset is immutable and has a different SHA-256" >&2
-            exit 1
-          fi
+          set -euo pipefail
 
-      - name: Verify anonymous release download
-        shell: bash
-        run: |
-          asset_url="$(jq -r '.apkUrl' pending-update.json)"
-          expected_hash="$(jq -r '.encryptedSha256' pending-update.json)"
-          expected_bytes="$(jq -r '.encryptedBytes' pending-update.json)"
-          curl --fail --location --silent --show-error --retry 3 \
-            "$asset_url" --output downloaded.apk.enc
-          actual_hash="$(sha256sum downloaded.apk.enc | cut -d ' ' -f 1)"
-          actual_bytes="$(stat -c '%s' downloaded.apk.enc)"
-          test "$actual_hash" = "$expected_hash"
-          test "$actual_bytes" = "$expected_bytes"
+          updated_manifests=()
 
-      - name: Publish manifest after artifact verification
-        shell: bash
-        run: |
-          cp pending-update.json update.json
-          git add update.json
-          if git diff --cached --quiet; then
+          publish_target() {
+            local asset_name="$1"
+            local pending_file="$2"
+            local public_file="$3"
+            local url_field="$4"
+
+            if [ ! -f "$pending_file" ] || [ ! -f "$asset_name" ]; then
+              return 0
+            fi
+            if [ -f "$public_file" ] && cmp -s "$pending_file" "$public_file"; then
+              echo "Skipping $public_file (already up to date)"
+              return 0
+            fi
+
+            local version_name version_code release_tag release_title
+            version_name="$(jq -r '.versionName' "$pending_file")"
+            version_code="$(jq -r '.versionCode' "$pending_file")"
+            release_tag="v${version_name}-${version_code}"
+            release_title="App ${version_name} (${version_code})"
+            jq -r '.notes' "$pending_file" > release-notes.txt
+
+            local expected_hash expected_bytes actual_hash actual_bytes
+            expected_hash="$(jq -r '.encryptedSha256' "$pending_file")"
+            expected_bytes="$(jq -r '.encryptedBytes' "$pending_file")"
+            actual_hash="$(sha256sum "$asset_name" | cut -d ' ' -f 1)"
+            actual_bytes="$(stat -c '%s' "$asset_name")"
+            test "$actual_hash" = "$expected_hash"
+            test "$actual_bytes" = "$expected_bytes"
+
+            if gh release view "$release_tag" >/dev/null 2>&1; then
+              gh release edit "$release_tag" \
+                --title "$release_title" \
+                --notes-file release-notes.txt
+            else
+              gh release create "$release_tag" \
+                --title "$release_title" \
+                --notes-file release-notes.txt
+            fi
+
+            local expected_digest="sha256:${expected_hash}"
+            local existing_digest
+            existing_digest="$(gh api \
+              "repos/$GITHUB_REPOSITORY/releases/tags/$release_tag" \
+              --jq ".assets[] | select(.name == \"${asset_name}\") | .digest")"
+            if [ -z "$existing_digest" ]; then
+              gh release upload "$release_tag" "$asset_name"
+            elif [ "$existing_digest" != "$expected_digest" ]; then
+              echo "Release asset $asset_name is immutable and has a different SHA-256" >&2
+              exit 1
+            fi
+
+            local asset_url dl_hash dl_bytes
+            asset_url="$(jq -r ".${url_field}" "$pending_file")"
+            curl --fail --location --silent --show-error --retry 3 \
+              "$asset_url" --output "downloaded-${asset_name}"
+            dl_hash="$(sha256sum "downloaded-${asset_name}" | cut -d ' ' -f 1)"
+            dl_bytes="$(stat -c '%s' "downloaded-${asset_name}")"
+            test "$dl_hash" = "$expected_hash"
+            test "$dl_bytes" = "$expected_bytes"
+            rm -f "downloaded-${asset_name}"
+
+            cp "$pending_file" "$public_file"
+            git add "$public_file"
+            updated_manifests+=("$public_file")
+          }
+
+          publish_target "latest.apk.enc" "pending-update.json" "update.json" "apkUrl"
+          publish_target "latest-windows-x64.zip.enc" "pending-update-windows.json" "update-windows.json" "packageUrl"
+
+          if [ "${#updated_manifests[@]}" -eq 0 ]; then
+            echo "No manifest changes to publish."
             exit 0
           fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "发布更新清单 ${{ steps.version.outputs.tag }}"
-          git push origin HEAD:main
 
-      - name: Purge and verify jsDelivr manifest
-        shell: bash
-        run: |
-          manifest_url="https://cdn.jsdelivr.net/gh/wx15555002074-coder/software-releases@main/update.json"
-          expected_hash="$(jq -r '.encryptedSha256' pending-update.json)"
-          expected_url="$(jq -r '.apkUrl' pending-update.json)"
-          curl --fail --silent --show-error \
-            "https://purge.jsdelivr.net/gh/wx15555002074-coder/software-releases@main/update.json" \
-            >/tmp/jsdelivr-purge.json
-          for attempt in $(seq 1 18); do
-            if curl --fail --silent --show-error "$manifest_url" --output public-update.json; then
-              public_hash="$(jq -r '.encryptedSha256' public-update.json)"
-              public_url="$(jq -r '.apkUrl' public-update.json)"
-              if [ "$public_hash" = "$expected_hash" ] && [ "$public_url" = "$expected_url" ]; then
-                exit 0
+          if ! git diff --cached --quiet; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "发布更新清单: ${updated_manifests[*]}"
+            git push origin HEAD:main
+          fi
+
+          for manifest_file in "${updated_manifests[@]}"; do
+            manifest_url="https://cdn.jsdelivr.net/gh/wx15555002074-coder/software-releases@main/${manifest_file}"
+            expected_hash="$(jq -r '.encryptedSha256' "$manifest_file")"
+            expected_url="$(jq -r '.apkUrl // .packageUrl' "$manifest_file")"
+            curl --fail --silent --show-error \
+              "https://purge.jsdelivr.net/gh/wx15555002074-coder/software-releases@main/${manifest_file}" \
+              >/tmp/jsdelivr-purge.json
+            verified=0
+            for attempt in $(seq 1 18); do
+              if curl --fail --silent --show-error "$manifest_url" --output "public-${manifest_file}"; then
+                public_hash="$(jq -r '.encryptedSha256' "public-${manifest_file}")"
+                public_url="$(jq -r '.apkUrl // .packageUrl' "public-${manifest_file}")"
+                if [ "$public_hash" = "$expected_hash" ] && [ "$public_url" = "$expected_url" ]; then
+                  verified=1
+                  break
+                fi
               fi
+              sleep 10
+            done
+            if [ "$verified" -ne 1 ]; then
+              echo "jsDelivr manifest $manifest_file did not refresh to the verified release" >&2
+              exit 1
             fi
-            sleep 10
           done
-          echo "jsDelivr manifest did not refresh to the verified release" >&2
-          exit 1
