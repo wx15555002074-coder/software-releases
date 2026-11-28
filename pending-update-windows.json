@@ -1,16 +1,16 @@
 {
   "schema": 1,
   "platform": "windows",
-  "versionCode": 37,
-  "versionName": "1.1.35",
-  "notes": "多节点官方更新清单竞速（国内直连免代理自动择优：testingcf/gcore/cdn.jsdelivr + GitHub API/Raw）",
-  "packageUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.35-37/latest-windows-x64.zip.enc",
+  "versionCode": 38,
+  "versionName": "1.1.36",
+  "notes": "修复Windows桌面端自更新ShellExecute脱离进程与robocopy替换覆盖，新增真实百分比进度条与按钮进度",
+  "packageUrl": "https://github.com/wx15555002074-coder/software-releases/releases/download/v1.1.36-38/latest-windows-x64.zip.enc",
   "algorithm": "AES-256-GCM+RSA-OAEP-SHA256",
   "aad": "content-collector-update-v1",
-  "nonce": "TLhgfg0KFXH6zmav",
-  "wrappedKey": "HApCETzhCsE6WZrJgylg+y7rJt6titCdc1valUFbc5lX+zTPJc4casLmsuJAqWhwbOl1aWEeg+idkzbwXnKKoJ+kGILLpSF4R913mV5xqyZPILo71S9sHgp/xjYWM5m7UKRbDg/b6ZDPtATap9slbI9xe4tksmZ7JZI2uEok78oDa3Q4RHssUg1hxeGG3jOKP9ApLgrZCKayoRtnhzfusyNm04LyRMizrcljrMbF/CulWZ/hKLiNJAstSfYbk3LLU0tbyEP/qSYqdG3tVmbp2N9bW7a5oWSNU0lBEus7OlY6QoT1LrT2zhlxlwSaJtS3MCs3CTaetA8+DVd9YkolB5GWzBkIzTaKSKKnV4m8XMJ1LtieDPdXklwnLkiUE4ZJhGEn3f/mNE4ihlcm3g1M5vOFTKRELKDOsK0YObXA9ed8XAMqsAXxrYrQnGe4zjsZ+JFGN0BY7OBXHhLsVhZeUSTL2swnQOJaBpzpBOb9dbpd/pdIEoNh8+sj3luOcqso",
-  "encryptedSha256": "4040c3afee98155580c6a04b6819b232d80c113866eefeec0b486df079a719da",
-  "packageSha256": "8ae6ed472e8de8a05c0c376befa7b75b8f02896ba90bbcee03a09675053ee2c9",
-  "encryptedBytes": 35271503,
-  "createdAt": "2026-11-28T14:42:34.670480Z"
+  "nonce": "eFH2M99kwXYx4pSO",
+  "wrappedKey": "h95I+JD/K5sY23gOuz0QNIW2DrPJQYc1jU7erxJFqCgEfu0DO3lcXQ8pSoHarfNjCb7ru8iyqoZjyd81YkTFl9tRe8xFwQ5qVoTlPtAUJZzNMvQGm2nJZg0kmzG+CHHZpHUrV5KnTvS8Pq0z8CYmTd6rEzrMu4vIACbDBoiNNEdRnkvF0zE6znhXxLMQtQkxAhwmViRhkC+IFTnNUhtNR6mOnMIOWtuCNvL0uSqpw6U0HpscsuTh1d6iFR0wSsFHxPJl1Uv3lzmtqW2ZfKuFFrHKBVaqIqEQlWFr43helY+m1zf4ifiLICq1qAi1cMYnr3TsychdXMvOEq3GThkNETGZWevQo2GHIE/2TjS5xM2HnCNJOfTLwjCFc19HwfG2y6SUVNN2lNT6tpQXBjJzpjnWPGY8+Zz8k9LrHmtzifGzXgUHQ9R0toPm06LvvCmR8aYFcOapcyPGsILo0UBbY4HAutW4X9ePzrsrHhYzAFp3CCNZEEFfO36Hdei88duz",
+  "encryptedSha256": "6ed6963f33a4ef7860cfac79ebf2c615ce7b91a82d3764edd5efc1a24efec22d",
+  "packageSha256": "6045df162db89cce2ae2c4965deeb481bc22bb522fa85d69fafccd193a67c463",
+  "encryptedBytes": 35275474,
+  "createdAt": "2026-11-28T15:02:28.073160Z"
 }
